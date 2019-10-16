@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   annotations:
     deployment.kubernetes.io/revision: "1"
-  creationTimestamp: "2019-10-16T12:58:12Z"
+  creationTimestamp: "2019-10-16T14:35:52Z"
   generation: 1
   name: carts-primary
-  resourceVersion: "11772"
+  resourceVersion: "33984"
   selfLink: /apis/apps/v1/namespaces/sockshop-production/deployments/carts
-  uid: 9c67d06c-f014-11e9-aaf5-42010a8001a2
+  uid: 411f012e-f022-11e9-aaf5-42010a8001a2
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
@@ -42,7 +42,7 @@ spec:
               apiVersion: v1
               fieldPath: metadata.labels['deployment']
         - name: CONTAINER_IMAGE
-          value: docker.io/keptnexamples/carts:0.9.1
+          value: docker.io/keptnexamples/carts:0.9.3
         - name: KEPTN_PROJECT
           value: carts
         - name: KEPTN_STAGE
@@ -52,7 +52,7 @@ spec:
               fieldPath: metadata.namespace
         - name: KEPTN_SERVICE
           value: carts
-        image: docker.io/keptnexamples/carts:0.9.1
+        image: docker.io/keptnexamples/carts:0.9.3
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 3
