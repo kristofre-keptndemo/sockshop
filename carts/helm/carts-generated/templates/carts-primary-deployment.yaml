@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   annotations:
     deployment.kubernetes.io/revision: "1"
-  creationTimestamp: "2019-10-16T18:39:32Z"
+  creationTimestamp: "2019-10-17T12:38:23Z"
   generation: 1
   name: carts-primary
-  resourceVersion: "88520"
+  resourceVersion: "329673"
   selfLink: /apis/apps/v1/namespaces/sockshop-staging/deployments/carts
-  uid: 4b45d41a-f044-11e9-aaf5-42010a8001a2
+  uid: 0250e940-f0db-11e9-aaf5-42010a8001a2
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
