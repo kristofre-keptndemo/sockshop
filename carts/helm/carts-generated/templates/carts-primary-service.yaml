@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: "2019-10-16T18:44:57Z"
+  creationTimestamp: "2019-10-17T12:43:57Z"
   name: carts-primary
-  resourceVersion: "89438"
+  resourceVersion: "330604"
   selfLink: /api/v1/namespaces/sockshop-production/services/carts
-  uid: 0d349c0e-f045-11e9-aaf5-42010a8001a2
+  uid: c9470275-f0db-11e9-aaf5-42010a8001a2
 spec:
   ports:
   - name: http
